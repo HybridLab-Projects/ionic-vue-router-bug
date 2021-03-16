@@ -2,26 +2,30 @@
   <ion-page>
     <ion-header>
       <ion-toolbar>
-        <ion-title>Tab 1</ion-title>
+        <ion-title>Subpage2</ion-title>
       </ion-toolbar>
     </ion-header>
     <ion-content :fullscreen="true">
       <ion-header collapse="condense">
         <ion-toolbar>
-          <ion-title size="large">Tab 1</ion-title>
+          <ion-title size="large">Subpage2</ion-title>
         </ion-toolbar>
       </ion-header>
     
-      <ion-button router-link="/subpage">Subpage</ion-button>
+      <ion-button router-link="/tabs/tab2">Continue to tabs</ion-button>
     </ion-content>
-  </ion-page>
+</ion-page>
 </template>
 
-<script lang="ts">
+<script>
 import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonButton } from '@ionic/vue';
 
 export default  {
-  name: 'Tab1',
-  components: {IonHeader, IonToolbar, IonTitle, IonContent, IonPage, IonButton }
+  name: 'Tab2',
+  components: { IonHeader, IonToolbar, IonTitle, IonContent, IonPage, IonButton }
 }
 </script>
+
+<style>
+
+</style>

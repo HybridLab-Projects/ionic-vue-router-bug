@@ -12,9 +12,9 @@
         </ion-toolbar>
       </ion-header>
     
-      <ion-button href="/tabs/tab2">Continue</ion-button>
+      <ion-button router-link="/subpage2">Subpage 2</ion-button>
     </ion-content>
-  </ion-page>
+</ion-page>
 </template>
 
 <script>
