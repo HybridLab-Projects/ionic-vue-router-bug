@@ -1,0 +1,7 @@
+{
+  "name": "ionic-vue-router-bug",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
